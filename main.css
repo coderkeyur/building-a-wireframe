@@ -1,0 +1,83 @@
+body{
+   background-color:  #777;
+   color: #777;
+   max-width: 960px;
+   margin: auto;
+   font-size: 18px;
+   font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+   text-align: center;
+}
+.header{
+    background-color: #ebebeb;
+    padding: 30px;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 10px;
+}
+.nav{
+    background-color: #ebebeb;
+    padding: 30px;
+    max-width: 960px;
+    margin-top: 10px;
+}
+.section{
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #ebebeb;
+    float: left;
+    padding-top: 20px;
+    overflow: auto;
+}
+.article{
+    width: 480px;
+    height: 210px;
+    background-color: #777;
+    color: #ebebeb;
+    padding-top: 10px;
+    margin: 30px 10px;
+}
+.h1h2h3{
+    width: 420px;
+    padding: 15px;
+    background-color: #ebebeb;
+    color: #777;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 15px;
+}
+.p{
+    width: 420px;
+    padding: 15px;
+    background-color: #ebebeb;
+    color: #777;
+    margin: auto;
+    margin-top: 20px;
+}
+.aside{
+    width: 445px;
+    height: 350px;
+    margin: 10px 0px;
+    background-color: #ebebeb;
+    float: right;
+    padding-top: 20px;
+    overflow: auto;
+}
+/* clear floats after rows */
+
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+/* not sure what i am doing wronge here that my clearfix doesn't work and i  have to use 390px margin-top to clear my footer from running into section and article */
+
+.footer{
+    background-color: #ebebeb;
+    padding: 30px;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 390px;
+}
